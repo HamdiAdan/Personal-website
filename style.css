@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+
+.container{
+    background-image: url(./images/ocean.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    min-height: 100vh; 
+
+
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}   
+    
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #C3E2C2;;
+
+}
+
+.details{
+    text-align: center;
+    
+}
+
+.details h1{
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.details p{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 22px;
+}
+span{
+    color: black;
+}
+
+span:hover{
+    color: #C3E2C2;;
+}
+
+.about{
+    margin:70px
+
+}
+.about h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.about p{
+    line-height: 30px;
+    padding: auto;
+
+}
+
+.hobbies{
+    background-color: #C3E2C2;;
+    padding: 50px 0px 75px 0px;
+    margin: 100px 300px;
+}
+
+.hobbies h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.hobbies ul li{
+    font-family: cursive;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.footerContainer h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: transparent;
+    margin: 20px 50px 100px 50px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #C3E2C2;;
+    transition: 0.5s;
+}
+
+.footerBottom{
+    display: flexbox;
+    background-color:#C3E2C2;
+    text-align: center;
+    padding-bottom: 75px;
+    padding top:75px;
+    
+}
